@@ -28,7 +28,7 @@ jobs:
           cache: true
 
       - name: Generate Android Platform Files
-        run: flutter create . --platforms=android
+        run: flutter create . --project-name=prayer_times_app --platforms=android
 
       - name: Install Dependencies
         run: flutter pub get
